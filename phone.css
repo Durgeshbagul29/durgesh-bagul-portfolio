@@ -115,8 +115,8 @@
     .image,
     .image img {
         margin-top: 1rem;
-        width: 300px;
-        height: 300px;
+        /* width: 300px; */
+        height: 500px;
     }
 
     .row {
@@ -159,7 +159,7 @@
     }
 
     .featured-text-card span {
-        margin-top: 2rem;
+        margin-top: 10rem;
         background: var(--third-color);
         color: var(--color-white);
         padding: 3px 10px;
@@ -245,7 +245,7 @@
     }
 
     .project-box {
-        width: 50%;
+        width: 60%;
     }
 
     .certificates-container {
@@ -308,12 +308,19 @@
     }
 
     .contact-info p>i {
-        font-size: 16px;
+        font-size: 15px;
     }
 
 }
 
 
+/* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
+
+@media only screen and (max-width: 400px) {
+    .contact-info p>i {
+        font-size: 13px;
+    }
+}
 
 /* ----- MEDIA QUERY == 1920px--1300px / RESPONSIVE ----- */
 @media (min-width :1100px) and (max-width : 1300px) {
@@ -391,16 +398,15 @@
     }
 
     .project-box {
-        width: 50%;
+        width: 45%;
     }
 
     .certificates-container {
-        gap: 25px;
+        gap: 30px;
     }
 
     .certificates-box {
-        width: 45%;
-        width: 100%;
+        width: 48%;
     }
 
     .certificates-box img {
@@ -477,15 +483,17 @@
     }
 
     .project-box {
-        width: 50%;
+        width: 80%;
     }
 
     .certificates-container {
         gap: 25px;
+        display: flex;
+        justify-content: center;
     }
 
     .certificates-box {
-        width: 100%;
+        width: 80%;
         display: -ms-grid;
         display: grid;
         display: -webkit-box;
