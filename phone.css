@@ -5,6 +5,20 @@
 * Browsers: last 4 version
 */
 
+/* ----- MEDIA QUERY == 600px / RESPONSIVE ----- */
+@media only screen and (max-width: 600px) {
+    .col {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* .col-skils {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    } */
+}
+
 /* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
 @media only screen and (max-width: 1024px) {
     .featured-text {
@@ -137,9 +151,6 @@
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
         width: 100%;
     }
 
