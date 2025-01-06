@@ -271,12 +271,20 @@
         margin-bottom: 10px;
         height: 40px;
         border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
     }
 }
 
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
 
 @media only screen and (max-width: 540px) {
+    .certificates-box {
+        height: auto;
+    }
+
     .featured-name {
         font-size: 40px;
     }
