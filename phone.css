@@ -281,9 +281,9 @@
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
 
 @media only screen and (max-width: 540px) {
-    .certificates-box {
+    /* .certificates-box {
         height: auto;
-    }
+    } */
 
     .featured-name {
         font-size: 40px;
